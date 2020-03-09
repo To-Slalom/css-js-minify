@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["ctrl+alt+m"], "command": "css_tominifier"
+    }
+]

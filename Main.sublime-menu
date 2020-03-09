@@ -1,0 +1,68 @@
+[
+    {
+        // barra ferramentas
+        "id": "tools",
+        "children": // submenu
+        [
+            {
+                "caption": "Minify CSS or JS" ,
+                "command": "css_tominifier"
+            }
+        ]
+    } ,
+    {
+        "caption"   : "Preferences",
+        "mnemonic"  : "n",
+        "id"        : "preferences",
+        "children":
+        [
+            {
+                "caption"   : "Package Settings",
+                "id"        : "package-settings",
+                "mnemonic"  : "P",
+                "children":
+                [
+                    {
+                        "caption": "Minify CSS or JS",
+                        "children":
+                        [
+                            {
+                                // Ficheiro de ajuda
+                                "caption": "README",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/to_minify/README.md"
+                                }
+                            },
+                            {
+                                // linsença
+                                "caption": "LICENSE",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/to_minify/LICENSE"
+                                }
+                            },
+                            /*
+                            {
+                                "command": "open_file", "args": // setings 
+                                {
+                                    "file": "${packages}/to_minify/minify.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/minify.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            },
+                            */
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
