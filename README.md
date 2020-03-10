@@ -15,13 +15,13 @@ Como é o meu primeiro projecto é possivel que tenha bugs,... e como tal peço-
 
 ## Usage
 
-Inglês :
+1. Inglês :
 Open Css or JS scripts and press :
     Ctrl + Alt + m (Windows/OSX/Linux)
 
 If you prefer menu options you should be able to find it under the 'Tools' menu.
 
-Portugues :
+2. Portugues :
 Abre qualquer ficheiro com extenção css ou js e precione :
     Ctrl + Alt + m (Windows/OSX/Linux)
 
