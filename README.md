@@ -25,6 +25,8 @@ Abre qualquer ficheiro com extenção css ou js e precione :
     Ctrl + Alt + m (Windows/OSX/Linux)
 
 Se preferir Menu principal em "Ferramentas" Minify Css ou Js
-'''
+
+
+```js
 The mind is like a parachute, it only works when it's open.
-'''
+```
