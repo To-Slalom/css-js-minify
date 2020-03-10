@@ -26,6 +26,10 @@ Abre qualquer ficheiro com extenção css ou js e precione :
 
 Se preferir Menu principal em "Ferramentas" Minify Css ou Js
 
+To disable all default shortcuts, set value to `all`:
+    
+    "disabled_keymap_actions": "all"
+
 
 ```js
 The mind is like a parachute, it only works when it's open.
